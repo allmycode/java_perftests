@@ -7,7 +7,9 @@ public class Tools {
             t.run();
             if (i >= 0)
                 results[i] = System.currentTimeMillis() - started;
+            System.out.print(i > 0 ? "+" : ".");
         }
+        System.out.println();
         return results;
     }
 }
