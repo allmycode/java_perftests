@@ -1,5 +1,5 @@
 package tests;
-class IntSumLongCompare extends perftests.AbstractTest {
+public class IntSumLongCompare extends perftests.AbstractTest {
      public void run() {
          int s = 0;
          long l = 0;

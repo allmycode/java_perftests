@@ -1,5 +1,5 @@
 package perftests;
-class Tools {
+public class Tools {
     public static long[] measure(Test t, int times) {
         long[] results = new long[times]; 
         for (int i = -10; i < times; i++) {

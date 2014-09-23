@@ -1,5 +1,5 @@
 package perftests;
-class Stats {
+public class Stats {
     final double mean;
     final double stddev;
     public Stats(long[] results) {
