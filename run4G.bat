@@ -1,0 +1,1 @@
+@java -Xmx5G -Xms5G -cp target/classes perftests.Runner %*
